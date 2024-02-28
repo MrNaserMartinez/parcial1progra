@@ -1,3 +1,3 @@
 ﻿
-string pepe = "Hola a todos";
-Console.WriteLine(pepe);
+string mayusculas = "HOLA MUNDO";
+string minusculas = mayusculas.ToLower(); // minusculas será "hola mundo"
