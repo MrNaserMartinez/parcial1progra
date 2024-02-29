@@ -29,7 +29,19 @@ do
             Console.WriteLine($"El factorial de {numero} es: {factorial}");
             break;
         case 2:
-            Console.WriteLine("Has elegido la Opción 2.");
+            Console.WriteLine("Veamos tus raices cuadradas.");
+            Console.Write("Ingresa un número para calcular su raíz cuadrada: ");
+            double numeroRaiz = double.Parse(Console.ReadLine());
+
+            if (numeroRaiz < 0)
+            {
+                Console.WriteLine("No se puede calcular la raíz cuadrada de un número negativo.");
+            }
+            else
+            {
+                double raizCuadrada = Math.Sqrt(numeroRaiz);
+                Console.WriteLine($"La raíz cuadrada de {numeroRaiz} es: {raizCuadrada}");
+            }
             break;
         case 3:
             Console.WriteLine("Saliendo del programa...");
