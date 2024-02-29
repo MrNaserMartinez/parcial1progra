@@ -1,3 +1,2 @@
-﻿
-string mayusculas = "HOLA MUNDO";
-string minusculas = mayusculas.ToLower(); // minusculas será "hola mundo"
+﻿Console.WriteLine("BIEVENIDO AL SISTEMA NUMERO 1 PARA EL PARCIAL 1");
+
