@@ -186,17 +186,17 @@ string resultado = String.Concat(cadena1, " ", cadena2); // resultado contendrá
 string[] partes = { "Hola", "Mundo" };
 string resultado = String.Join(" ", partes); // resultado contendrá "Hola Mundo"
 //	Interpolación de Cadenas: Puedes utilizar la interpolación de cadenas, que es una característica introducida en C# 6.0, para concatenar cadenas y valores dentro de una cadena utilizando el símbolo $. Por ejemplo:
-string cadena1 = "Hola";
-string cadena2 = "Mundo";
-string resultado = $"{cadena1} {cadena2}"; // resultado contendrá "Hola Mundo"
+string cadena9 = "Hola";
+string cadena99 = "Mundo";
+string resultado9 = $"{cadena9} {cadena99}"; // resultado contendrá "Hola Mundo"
 
 
 //3.Busqueda de patrones
 
 //1.	Método IndexOf(): El método IndexOf() te permite buscar la primera ocurrencia de un carácter o subcadena dentro de una cadena y devuelve su posición. Puedes usar este método para buscar un patrón específico.
 
-string frase = "La casa es grande";
-int indice = frase.IndexOf("casa"); // Devuelve el índice de la primera ocurrencia de "casa" (3 en este caso)
+string frase9 = "La casa es grande";
+int indice9 = frase9.IndexOf("casa"); // Devuelve el índice de la primera ocurrencia de "casa" (3 en este caso)
 
 if (indice != -1)
 {
@@ -210,8 +210,8 @@ else
 
 //2.Método Contains(): El método Contains() te permite verificar si una cadena contiene una subcadena específica.
 
-string frase = "La casa es grande";
-int indice = frase.IndexOf("casa"); // Devuelve el índice de la primera ocurrencia de "casa" (3 en este caso)
+string frase8 = "La casa es grande";
+int indice8 = frase8.IndexOf("casa"); // Devuelve el índice de la primera ocurrencia de "casa" (3 en este caso)
 
 if (indice != -1)
 {
