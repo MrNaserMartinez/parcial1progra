@@ -3,9 +3,9 @@ Console.WriteLine("BIENVENIDO AL SISTEMA NUMERO 1 PARA EL PARCIAL 1\n\n");
 Console.WriteLine("EJERCICIO #2 PARA EL PARCIAL 1\n");
 
 Console.WriteLine("CALCULAR EL RESULTADO\n");
-Console.WriteLine("Ingrese el primer numero entero");
+Console.WriteLine("Ingrese el primer numero entero:");
 int n1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Ingrese el segundo numero entero");
+Console.WriteLine("Ingrese el segundo numero entero:");
 int n2 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Ingresa el operador matemático (+, -, *, /)");
